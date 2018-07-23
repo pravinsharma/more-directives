@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { MoreDirectivesComponent } from './more-directives/more-directives.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MoreDirectivesComponent
   ],
   imports: [
     BrowserModule

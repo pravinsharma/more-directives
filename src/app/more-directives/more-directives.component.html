@@ -1,0 +1,6 @@
+<div>
+  <button (click)="addMessage();">Display Details</button>
+  <p *ngIf="toggle_para">Secret Password = tuna</p>
+
+  <div *ngFor="let msg of messages; let i = index" [ngStyle]="{ backgroundColor: i>3 ? 'blue': 'white' }">{{msg}}</div>
+</div>
